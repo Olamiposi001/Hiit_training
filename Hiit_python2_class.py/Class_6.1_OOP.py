@@ -29,6 +29,10 @@ animal_1 = Animal()
 print(f"Animal name is {animal_1.name} ")
 animal_1.name = "cow"
 
+animal_2 = Animal()
+
+
+
 # talking about methods
 
 # init is a method that help us 
