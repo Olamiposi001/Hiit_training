@@ -8,12 +8,12 @@ class Person:
         
     def get_category(self):
         if self.age < 18:
-            print("Underage")
+            return "Underage"
         else:
             return "Adult"
         
     def display_details(self):
-        print(f"Full Name: {self.l} {self.f}, Age: {self.age}")
+        print(f"Full Name: {self.l} {self.f}, Age: {self.age}, Category: {self.get_category()}")
         
     def get_age(self):
         print(f"Age: {self.age}")
